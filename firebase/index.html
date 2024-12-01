@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+<div class="center">
+    <div class="container" id="auth">
+        <div class="form-container sing-up card-registre">
+            <form action=""  id="registroForm">
+                <h1>Crea tu cuenta</h1>
+                <div class="social-icons">
+                    <a href="#" class="icons-class">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-google"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </div>
+                <span>Utiliza tu correo electrónico para registrarte</span> 
+                <input type="text" placeholder="Nombre">
+                <input type="email" placeholder="Email" id="emailRegistro" value="">
+                <input type="password" placeholder="Contrseña" id="passwordRegistro" value="">
+                <button type="submit">Registrarse</button>
+            </form>
+        </div>
+        <div class="form-container sing-in card-login">
+            <form action="" id="loginForm">
+                <h1>Inicia sesion</h1>
+                <div class="social-icons">
+                    <a href="" class="icons-class">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-google"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </div>
+                <span>Usa tu correo y contraseña para iniciar sesion</span>
+                <input type="email" placeholder="Email" id="emailLogin">
+                <input type="password" placeholder="Contraseña" id="passwordLogin">
+                <button>Iniciar sesion</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Hola, amigo</h1>
+                    <p>Si no tienes una cuenta, regístrate acá</p>
+                    <button class="hidden" id="login">Registrarse</button>
+                </div>
+
+                <div class="toggle-panel toggle-right">
+                    <h1>Hola, amigo</h1>
+                    <p>Si ya tienes cuenta, inicia sesión acá</p>
+                    <button class="hidden" id="register">Iniciar sesión</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+    <div class="" id="content">
+        <div class="botones">
+            <button id="cerrarSesion">
+                Cerrar sesión
+            </button>
+            <button id="next">
+                <h1>Ha entrado</h1>
+            </button>
+
+        </div>
+    </div> 
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/js-md5@0.8.3/src/md5.min.js"></script>
+    <script src="assets/js/auth.js" type="module"></script>
+    <script src="assets/js/app.js"></script>
+    <!-- <script src="assets/js/style.js"></script> -->
+</body>
+
+</html>
